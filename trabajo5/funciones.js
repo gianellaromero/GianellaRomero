@@ -50,52 +50,60 @@ const item2 ={
 /*console.log(factura.item1.precio*factura.item1.cantidad*factura.item1.impuesto+factura.item2.precio*factura.item2.cantidad*factura.item2.impuesto);*/
 //console.log(item1.calculartotal());
 //console.log(factura.calculartotal());
-  
+
 //tres objetos que se llamen persona
-//nombre , apellido , edad , sexo , 
-//persona1 edad 33 masculino
-//persona2 edad 12 fem
-//persona3 edad 94 fem
 
 //cuarto objeto que se llame mostrarpersona
 //en cada persona una funcion que devuelva apellido,nombre
 //funcion que devuelva el nombre completo
 //todas las personas +18
 
-const persona1={
-  nombre:"pablo",
-  apellido:"diaz",
+const persona1 = {
+  nombre: "pablo",
+  apellido: "diaz",
   edad: 33,
-  sexo:"masculino",
+  sexo: "masculino",
+};
+const persona2 = {
+  nombre: "violeta",
+  apellido: "robles",
+  edad: 12,
+  sexo: "femenino",
+};
+const persona3 = {
+  nombre: "marta",
+  apellido: "reyes",
+  edad: 94,
+  sexo: "femenino",
+};
+const mostrarpersona = {
+  persona1: persona1,
+  persona2: persona2,
+  persona3: persona3,
+  mostrar: function () {
+    return (
+      "Apellido y Nombre ordenados: " +
+      this.persona1.apellido +
+      "," +
+      this.persona1.nombre +
+      " - " +
+      this.persona2.apellido +
+      "," + 
+      this.persona2.nombre +
+      " - " +
+      this.persona3.apellido +
+      "," +
+      this.persona3.nombre
+    );
+  },
+};
+console.log(mostrarpersona.mostrar());
+if (persona1.edad > 18) {
+  console.log(persona1.nombre + " Es mayor a +18");
 }
-const persona2={
-    nombre:"violeta",
-    apellido:"robles",
-    edad:12,
-    sexo:"femenino",
-  }
-  const persona3={
-    nombre:"marta",
-    apellido:"reyes",
-    edad:94,
-    sexo:"femenino",
-  }
-  const mostrarpersona={
-      persona1:persona1,
-      persona2:persona2,
-      persona3:persona3,
-     mostrar:function(){
-         return "Apellido y Nombre ordenados: "+ this.persona1.apellido + "," + this.persona1.nombre+" - "+this.persona2.apellido + "," + this.persona2.nombre+" - "+this.persona3.apellido+ ","+ this.persona3.nombre
-    
-        },
-  }
-   console.log(mostrarpersona.mostrar());
-  if (persona1.edad>18) {
-      console.log(persona1.nombre+" Es mayor a +18")
-     }
-      if (persona2.edad>18) {
-        console.log(persona2.nombre+" Es mayor a +18")
-            }
-            if (persona3.edad>18) {
-                console.log(persona3.nombre+" Es mayor a +18")
-                    }
+if (persona2.edad > 18) {
+  console.log(persona2.nombre + " Es mayor a +18");
+}
+if (persona3.edad > 18) {
+  console.log(persona3.nombre + " Es mayor a +18");
+}
