@@ -1,34 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <script src="funciones.js"></script>
     <script src="mapa.js"></script>
-   <link rel="stylesheet" href="estilos.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <style>
-        #map { height: 500px;width: 500px;}
-         </style>
-    
-    <input type="button" name="solicitar datos" value="solicitar datos" onclick="mostrar()" >
-    <input type="button" name="reset" value="reset" onclick="reset()">
-    
-    <div id="html">
-        Nombre: <br>
-        Apellido: <br>
-        Sexo: <br>
-        Edad: <br>
-        Email: <br>
-        Foto: <br>
-        Latitud: <br>
-        Longitud: <br>
-        
-    </div> 
-      
+      #map {
+        height: 500px;
+        width: 500px;
+      }
+    </style>
+
+    <input
+      type="button"
+      name="solicitar datos"
+      value="Solicitar Datos"
+      onclick="mostrar()"
+    />
+    <input type="button" name="reset" value="Reset" onclick="reset()" />
+
+    <div id="html"></div>
+
     <div id="map"></div>
-</body>
+  </body>
 </html>
