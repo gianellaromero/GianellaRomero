@@ -14,9 +14,8 @@ $repartidor->Plus();
 echo $repartidor->getApellido();
 echo $repartidor->getEdad();
 echo $repartidor->getSalario();
-echo "<br>";*/
-
-/*echo $comercial->getName();
+echo "<br>";
+echo $comercial->getName();
 echo $comercial->getApellido();
 echo $comercial->getEdad();
 echo $comercial->getSalario();*/

@@ -1,5 +1,6 @@
 <?php
-class Empleado {
+class Empleado 
+{
     public $nombre;
     public $apellido;
     public $edad;
