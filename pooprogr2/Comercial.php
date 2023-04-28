@@ -1,7 +1,8 @@
 <?php
 require_once("Empleado.php");
 
-class Comercial extends Empleado {
+class Comercial extends Empleado 
+{
     public $comision;
     public function getComision(){
         return $this->comision;

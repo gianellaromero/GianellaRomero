@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-   <script src="Funciones.js"></script>
+    <script src="Funciones.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,23 +11,23 @@
 
 <body>
     <form action="Index.php" method="post" name="datos">
-    <div style=" text-align: center; /*border: black 5px solid;*/ margin: 10%; font-size: 15px ;">
+        <div style=" text-align: center; /*border: black 5px solid;*/ margin: 10%; font-size: 15px ;">
 
-        Nombre: <br><input type="text" name="nombre"> <br>
-        Apellido: <br><input type="text" name="apellido"> <br>
-        Edad: <br><input type="text" name="edad"> <br>
-        Salario: <br><input type="text" name="salario"> <br>
-        Empleado: <br><select name="empleado" id="id" onchange="valor(this.value)" style="font-size: 15px;"><br>
-            <option value="Seleccionar" >Seleccionar</option>
-            <option value="Comercial">Comercial</option>
-            <option value="Repartidor"> Repartidor</option>
-        </select> <br> <br>
-        <div id="tipo" name=""></div> <br>
-        <input type="submit" name="enviar" value="enviar" style="font-size: 15px;">
-    </div>
-    
-   
-   </form>
+            Nombre: <br><input type="text" name="nombre"> <br>
+            Apellido: <br><input type="text" name="apellido"> <br>
+            Edad: <br><input type="text" name="edad"> <br>
+            Salario: <br><input type="text" name="salario"> <br>
+            Empleado: <br><select name="empleado" id="id" onchange="valor(this.value)" style="font-size: 15px;"><br>
+                <option value="Seleccionar">Seleccionar</option>
+                <option value="Comercial">Comercial</option>
+                <option value="Repartidor"> Repartidor</option>
+            </select> <br> <br>
+            <div id="tipo" name=""></div> <br>
+            <input type="submit" name="enviar" value="enviar" style="font-size: 15px;">
+        </div>
+
+
+    </form>
 </body>
 
 </html>
