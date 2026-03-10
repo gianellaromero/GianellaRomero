@@ -1,4 +1,4 @@
-## 🌸 Lenguajes y herramientas
+## 🌸 Lenguajes y Herramientas
 
 <p align="center">
   <img src="https://img.shields.io/badge/PHP-ebb7ff?style=for-the-badge&logo=php&logoColor=white"/>
